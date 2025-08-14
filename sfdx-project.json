@@ -7,10 +7,15 @@
             "package": "graduates-2025",
             "versionDescription": ""
         },
-        { "path": "unpackaged" }
+        {
+            "path": "unpackaged"
+        }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "61.0",
-    "packageAliases": { "graduates-2025": "0HoP100000001aPKAQ" }
+    "packageAliases": {
+        "graduates-2025": "0HoP100000001aPKAQ",
+        "graduates-2025@0.1.0-1": "04tP10000006QuHIAU"
+    }
 }
