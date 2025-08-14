@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 FILES=$(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g')
 if [ -n "$FILES" ]; then
